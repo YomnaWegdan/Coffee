@@ -1,0 +1,34 @@
+.about-us , .gallery{
+    background-image: url(../images/bg-0006-free-img.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+}
+.about-us h2 , .about-us h1 , .gallery h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 40px;
+}
+.items{
+    columns: 3 !important;
+    gap: 4px;
+}
+.section_2 , .gallery .row{
+    
+        background-image: url(../images/bg-005-free-img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    
+}
+
+.gallery img{
+    transition: all 0.5s;
+}
+.gallery img:hover{
+    filter: brightness(1.2) !important;
+    transform: scale(1.0099);
+
+}
